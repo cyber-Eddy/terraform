@@ -36,3 +36,6 @@ terraform.rc
 digitalocean_token.txt
 SSHKey.txt
 .terraform.lock.hcl
+connection_password.txt
+id_rsa.pub
+public_ip.txt

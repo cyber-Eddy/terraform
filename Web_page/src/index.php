@@ -27,7 +27,7 @@
             $query = "SELECT * FROM usuarios";
             $result = $conn->query($query);
             if ($result->rowCount() == 0) {
-                $query = "INSERT INTO usuarios (nombre) VALUES ('Juan'), ('Pedro'), ('Maria'), ('Jose'), ('Luis'), (eddy)";
+                $query = "INSERT INTO usuarios (nombre) VALUES ('Juan'), ('Pedro'), ('Maria'), ('Jose'), ('Luis'), ('eddy')";
                 $conn->exec($query);
             }
 
